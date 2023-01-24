@@ -7,7 +7,7 @@
 - RDS
 - 엘라스틱IP
 
-# Githubactions scripts
+# Githubactions script
 ```java
 name: aws-v5
 on:
