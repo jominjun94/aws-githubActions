@@ -8,6 +8,7 @@
 - 엘라스틱IP
 
 # GithubAction
+```java
 name: aws-v5
 on:
   push:
@@ -60,3 +61,4 @@ jobs:
           version_label: aws-v5-${{steps.current-time.outputs.formattedTime}}
           region: ap-northeast-2
           deployment_package: deploy/deploy.zip
+          
